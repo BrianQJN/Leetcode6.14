@@ -6,9 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="ArraysHashing" />
         <module name="SlidingWindow" />
+        <module name="ArraysHashing" />
         <module name="TwoPointers" />
+        <module name="Stack" />
       </profile>
     </annotationProcessing>
   </component>
