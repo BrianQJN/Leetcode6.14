@@ -8,9 +8,9 @@ public class LC704_Binary_Search {
     public int search(int[] nums, int target) {
         // initialize two pointers
         int left = 0, right = nums.length - 1;
-        int mid = 0;
+        int mid;
 
-        // binary search
+        // shrink the interval
         while (left <= right) {
             mid = left + (right - left) / 2;
 
