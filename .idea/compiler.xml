@@ -9,6 +9,7 @@
         <module name="SlidingWindow" />
         <module name="BinarySearch" />
         <module name="ArraysHashing" />
+        <module name="LinkedList" />
         <module name="TwoPointers" />
         <module name="Stack" />
       </profile>
