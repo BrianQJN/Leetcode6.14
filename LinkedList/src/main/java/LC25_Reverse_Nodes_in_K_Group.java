@@ -6,21 +6,22 @@
  */
 public class LC25_Reverse_Nodes_in_K_Group {
     public ListNode reverseKGroup(ListNode head, int k) {
-        // create dummy node
+        // calculate the length of the list
+        int len = 0;
+        ListNode current = head;
+        while (current != null) {
+            len++;
+            current = current.next;
+        }
+
+        // create dummy node to handle edge cases
         ListNode dummy = new ListNode(-1);
         dummy.next = head;
 
-        ListNode cur = dummy, next = dummy, prev = dummy;
-        int count = 0;
+        ListNode prev = dummy, cur = dummy, next = dummy;
 
-        // count the nodes in list
-        while (cur.next != null) {
-            cur = cur.next;
-            count++;
-        }
-
-        // loop for each k group
-        while (count >= k) {
+        // loop for each node group
+        while (len >= k) {
             cur = prev.next;
             next = cur.next;
 
@@ -33,8 +34,10 @@ public class LC25_Reverse_Nodes_in_K_Group {
             }
 
             // move to next group
-            count -= k;
+            len -= k;
             prev = cur;
         }
+
+        return dummy.next;
     }
 }
