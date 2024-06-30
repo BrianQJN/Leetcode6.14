@@ -11,6 +11,7 @@
         <option value="$PROJECT_DIR$/BinarySearch/pom.xml" />
         <option value="$PROJECT_DIR$/LinkedList/pom.xml" />
         <option value="$PROJECT_DIR$/Tree/pom.xml" />
+        <option value="$PROJECT_DIR$/HeapQueue/pom.xml" />
       </list>
     </option>
   </component>
