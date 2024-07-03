@@ -10,6 +10,7 @@
         <module name="BinarySearch" />
         <module name="HeapQueue" />
         <module name="Tree" />
+        <module name="Tries" />
         <module name="ArraysHashing" />
         <module name="LinkedList" />
         <module name="TwoPointers" />

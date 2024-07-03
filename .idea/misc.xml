@@ -12,6 +12,7 @@
         <option value="$PROJECT_DIR$/LinkedList/pom.xml" />
         <option value="$PROJECT_DIR$/Tree/pom.xml" />
         <option value="$PROJECT_DIR$/HeapQueue/pom.xml" />
+        <option value="$PROJECT_DIR$/Tries/pom.xml" />
       </list>
     </option>
   </component>
