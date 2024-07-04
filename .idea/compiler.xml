@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="SlidingWindow" />
+        <module name="Backtracking" />
         <module name="BinarySearch" />
         <module name="HeapQueue" />
         <module name="Tree" />
