@@ -14,6 +14,7 @@
         <option value="$PROJECT_DIR$/HeapQueue/pom.xml" />
         <option value="$PROJECT_DIR$/Tries/pom.xml" />
         <option value="$PROJECT_DIR$/Backtracking/pom.xml" />
+        <option value="$PROJECT_DIR$/Intervals/pom.xml" />
       </list>
     </option>
   </component>
