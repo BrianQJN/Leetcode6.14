@@ -7,17 +7,18 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Intervals" />
-        <module name="SlidingWindow" />
-        <module name="Backtracking" />
         <module name="BinarySearch" />
-        <module name="HeapQueue" />
-        <module name="Tree" />
         <module name="Tries" />
         <module name="ArraysHashing" />
-        <module name="Greedy" />
         <module name="LinkedList" />
-        <module name="TwoPointers" />
         <module name="Stack" />
+        <module name="SlidingWindow" />
+        <module name="Backtracking" />
+        <module name="HeapQueue" />
+        <module name="Tree" />
+        <module name="Graphs" />
+        <module name="Greedy" />
+        <module name="TwoPointers" />
       </profile>
     </annotationProcessing>
   </component>
