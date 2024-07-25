@@ -57,5 +57,7 @@ public class LC210_Course_ScheduleII {
 
         onPath[node] = false;
         order.add(node);
+
+        return false;
     }
 }
